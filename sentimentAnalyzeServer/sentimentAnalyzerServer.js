@@ -21,7 +21,7 @@ function getNLUInstances() {
 }
 
 function getEmotion(data,analysistype,datatype,res) {
-    naturalLanguageUnderstanding = new getNLUInstance();
+    naturalLanguageUnderstanding = new getNLUInstances();
     let analyzeParams = {
             'html': '',
             'features': {
